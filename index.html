@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tariq's Cool Portfolio</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="icon" sizes="16x16" href="Images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <!-- Fixed navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark Oswald">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Tariq Medina</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Meme Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio2.html">Project Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Begin page content -->
+  <main role="main" class="container">
+    <div class="row">
+      <div class="page-header">
+        <h1 class="py-2">About Me</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+
+        <div class="row rounded grey pt-2">
+          <div class="col-md-4 text-center">
+            <img src="Images/tariq2.jpg" alt="Placeholder" class="img-thumbnail rounded">
+          </div>
+          <div class="col-md-8">
+            <p>
+              Tariq is an exceptionally analytical and versatile professional with a graduate level engineering degree
+              and a proven track record overseeing large industry projects from initial conception through to on-time
+              delivery. He is capable of effectively collaborating alongside versatile teams , key project
+              stakeholders, and vendors to ensure the success of projects within deadline, budget, and reflect overall
+              client expectations. Tariq is a highly skilled communicator, collaborator, developer, and strategist who
+              thrives within both fast-paced and detail oriented environments. Proficient in front end web development <u>(HTML, CSS - Bootstrap/Minimize, Javascript - JQuery/Ajax)</u>, 
+              database <u>(Firebase, mySql, mongoDB)</u> and backend <u>(Node, Express)</u> skills that can be applied to develop exciting new applications to satisfy a variety of client
+              requirements. See the <a href="portfolio2.html">Project Portfolio</a> page for more examples.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Create Card taking up 4 Columns-->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Connect with me</h5>
+            <div class="row text-center">
+              <div class="col-md-6">
+                <a href="https://www.linkedin.com/in/tariqmedina" target="_blank">
+                  <img src="Images/linkedin.jpg" alt="LinkedIn" class="img-thumbnail  lineme">
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="https://github.com/TariqMedina/" target="_blank">
+                  <img src="Images/github.png" alt="Github" class="img-thumbnail  lineme">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer bg-dark Oswald">
+    <div class="container">
+      <p class="text-center white mb-0">Last updated March 23rd 2019 &copy;</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
